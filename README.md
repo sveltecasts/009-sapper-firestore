@@ -10,11 +10,9 @@ Important files:
 
 ```src/template.html``` Added firebase CDN
 
-```src/firebase.js```checks if we are onthe Client or Serverside
+```src/client.js``` Prepares firebase on the Client
 
-```src/client.js``` Prepares firebase for the Serverside
-
-```src/firebase.js```checks if we are on the client or serverside and returns the firestore() function
+```src/firebase.js``` checks if we are on the client or serverside and returns the firestore() function
 
 ```src/routes/index.svelte``` show our list on serverside & clientside
 
