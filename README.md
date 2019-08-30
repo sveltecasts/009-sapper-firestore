@@ -4,7 +4,7 @@
 
 Important files:
 
-```src/firebaseConfig``` Add your Firebase Config here!!!
+```src/firebaseConfig.js``` Add your Firebase Config here!!!
 
 ```rollup.config.js```  Rollup Fix (see post @ stackoverflow)
 
