@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "files.associations": {
+    "*.svelte": "html"
+  },
+  "eslint.validate": ["javascript", "svelte"]
+}
