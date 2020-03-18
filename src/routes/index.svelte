@@ -1,8 +1,8 @@
 <script context="module">
-  import { firestore } from "./../firebase";
+  import { firestore } from './../firebase';
   export async function preload(page, session) {
     let db = await firestore();
-    let fbList = await db.collection("list").get();
+    let fbList = await db.collection('list').get();
     return { list: fbList.docs };
   }
 </script>
